@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --verde-claro: #cbe4b6;
+  --verde-escuro: #386845;
+  --verde-medio: #78b247;
+  --fundo: #f0f7f2;
+  --fonte-padrao: "Outfit", sans-serif;
+  --fonte-nord: "Nord", sans-serif;
+  --fonte-newyork: "New York", sans-serif;
+  --cor-titulo: #2e7d32;
+  --cor-texto: #333;
+}
+
+@font-face {
+  font-family: "Nord";
+  src: url("fonts/nord.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "New York";
+  src: url("fonts/NewYork.otf") format("opentype");
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-padrao);
+  line-height: 1.6;
+}
+
+.header {
+  background-color: var(--verde-claro);
+  color: var(--verde-escuro);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: var(--verde-escuro);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: var(--fonte-newyork);
+}
+
+.nav-link:hover {
+  color: var(--verde-medio);
+}
+
+.main {
+  padding: 0 4rem;
+  max-width: 1200px;
+  margin: 2rem 4rem;
+  font-family: var(--fonte-padrao);
+}
+
+.main-title {
+  font-family: var(--fonte-nord);
+  color: var(--cor-titulo);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.highlight,
+.section-title {
+  font-family: var(--fonte-newyork);
+  color: var(--verde-medio);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.intro,
+.beneficios-conteudo,
+.inspiracao-section,
+.comunidade-section {
+  display: flex;
+  flex: 1 1 60%;
+  gap: 2rem;
+  align-items: center;
+}
+
+.texto-intro,
+.texto-inspiracao,
+.beneficios-texto,
+.comunidade-texto{
+  flex: 1 1 60%;
+}
+
+.intro-figure,
+.beneficios-figure,
+.inspiracao-figure,
+.comunidade-figure {
+  flex: 1 1 35%;
+  margin: 0;
+}
+
+.intro-img,
+.beneficios-img,
+.inspiracao-img,
+.comunidade-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro-caption,
+.beneficios-caption,
+.inspiracao-caption,
+.comunidade-caption {
+  font-family: var(--fonte-padrao);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+  border-left: var(--verde-medio) 2px solid;
+  color: var(--verde-medio);
+}
+
+.beneficios-list,
+.acoes-list,
+.recursos-list {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  font-family: var(--fonte-padrao);
+  list-style: none;
+}
+
+.beneficios-list li,
+.acoes-list li,
+.recursos-list li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.beneficios-subtitle {
+  font-family: var(--fonte-newyork);
+  color: var(--verde-medio);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+a,
+.contato-link,
+.footer-link {
+  color: var(--verde-escuro);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover,
+.contato-link:hover,
+.footer-link:hover {
+  color: var(--verde-medio);
+}
+
+.footer {
+  background: var(--verde-claro);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.acoes-conteudo {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: var(--fonte-padrao);
+}
+
+.form-container h1 {
+  text-align: center;
+  font-family: var(--fonte-nord);
+  color: var(--cor-titulo);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin: 12px 0;
+  color: var(--cor-texto);
+}
+
+.form-container input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  transition: border 0.3s ease;
+  font-family: var(--fonte-padrao);
+}
+
+.form-container button {
+  background-color: var(--verde-medio);
+  color: white;
+  padding: 0.75rem 2rem;
+  font-family: var(--fonte-newyork);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1rem 0;
+}
+
+.form-container button:hover {
+  background-color: var(--verde-escuro);
+}
+
+.form-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.form-footer a {
+  color: var(--verde-escuro);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+

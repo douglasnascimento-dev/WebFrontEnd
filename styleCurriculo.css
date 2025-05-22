@@ -1,0 +1,84 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nome {
+  font-family: "Outfit", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: #1e1e1e;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+a {
+  color: #64b5f6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e88e5;
+  text-decoration: wavy underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.material-icons {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+#ods {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.hobbies-titulo {
+    text-decoration: dashed underline;
+}
+
+.educacao-item {
+    font-weight: bold;
+    text-decoration:  underline;
+}

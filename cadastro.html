@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Cadastro - Cidades + Verdes</title>
+    <link rel="icon" type="image/png" href="imgs/LogoComFundo.png" >
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo-container" href="index.html">
+        <img
+          src="imgs/LogoSemFundo.png"
+          alt="Logo Cidades + Verdes"
+          class="logo"
+        >
+      </a>
+    </header>
+    <div class="form-container">
+      <h1 class="main-title">
+        Cadastro | <span class="highlight">Conta + Verde</span>
+      </h1>
+      <form action="login.html">
+        <label
+          >Nome completo:
+          <input type="text" name="nome" required >
+        </label>
+        <label
+          >E-mail:
+          <input type="email" name="email" required >
+        </label>
+        <label
+          >Senha:
+          <input type="password" name="senha" required >
+        </label>
+        <label
+          >Data de nascimento:
+          <input type="date" name="nascimento" required >
+        </label>
+        <label
+          >Cidade:
+          <input type="text" name="cidade" required >
+        </label>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <div class="form-footer">
+        Já tem conta? <a href="login.html">Entrar</a>
+      </div>
+    </div>
+  </body>
+</html>
