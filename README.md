@@ -51,5 +51,5 @@ O projeto está organizado da seguinte forma:
 Douglas Nascimento de Matos
 
   * **Email**: douglasnascimento@alunos.utfpr.edu.br
-  * **LinkedIn**: [@douglasnascimentomatos](https://www.google.com/search?q=https://www.linkedin.com/in/douglasnascimentomatos)
-  * **GitHub**: [douglasdnmnac](https://www.google.com/search?q=https://github.com/douglasdnmnac)
+  * **LinkedIn**: [@douglasnascimentomatos](https://www.linkedin.com/in/douglasnascimentomatos)
+  * **GitHub**: [douglasnascimento-dev](https://github.com/douglasnascimento-dev)
