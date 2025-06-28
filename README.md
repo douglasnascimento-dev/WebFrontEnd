@@ -1,6 +1,6 @@
 # 🌿Cidades + Verdes
 
-"Cidades + Verdes" é um projeto que visa conscientizar sobre a importância das florestas urbanas e promover ações para tornar as cidades mais sustentáveis. O site, inicialmente desenvolvido com HTML e CSS, foi aprimorado com JavaScript para incluir funcionalidades dinâmicas de gerenciamento de usuários, simulando uma aplicação web interativa. [cite: 1, 3]
+"Cidades + Verdes" é um projeto que visa conscientizar sobre a importância das florestas urbanas e promover ações para tornar as cidades mais sustentáveis. O site, inicialmente desenvolvido com HTML e CSS, foi aprimorado com JavaScript para incluir funcionalidades dinâmicas de gerenciamento de usuários, simulando uma aplicação web interativa.
 
 ## 🌳 Páginas do Projeto
 
@@ -9,7 +9,7 @@ O projeto é composto por quatro páginas principais:
   * **Página Inicial | index.html**: Apresenta a importância das florestas urbanas, seus benefícios, ações sustentáveis e exemplos de inspiração verde. Inclui também seções sobre a comunidade ativa, recursos e informações de contato.
   * **Página de Cadastro | cadastro.html**: Permite que novos usuários se cadastrem no site, solicitando nome completo, e-mail, senha, data de nascimento e cidade.
   * **Página de Login | login.html**: Permite que usuários existentes façam login com e-mail e senha.
-  * **Página de Administração | admin.html**: Uma página de gerenciamento onde é possível cadastrar, visualizar, pesquisar e excluir usuários da aplicação. [cite: 9] As informações são salvas localmente no navegador. [cite: 8]
+  * **Página de Administração | admin.html**: Uma página de gerenciamento onde é possível cadastrar, visualizar, pesquisar e excluir usuários da aplicação. As informações são salvas localmente no navegador.
 
 ## 🌳 Estrutura do Projeto
 
@@ -37,10 +37,10 @@ O projeto está organizado da seguinte forma:
 ## 🌳 Tecnologias Utilizadas
 
   * **HTML5**: Usado para a estrutura e conteúdo das páginas web.
-  * **CSS3**: Usado para a estilização e design das páginas. [cite: 2]
-  * **JavaScript (ES6+)**: Utilizado para adicionar interatividade e manipular os dados da aplicação. [cite: 3]
-      * **DOM API**: Para manipulação dinâmica dos elementos da página. [cite: 17]
-      * **Web Storage API (Local Storage)**: Para armazenamento de dados no navegador do usuário. [cite: 17]
+  * **CSS3**: Usado para a estilização e design das páginas. 
+  * **JavaScript (ES6+)**: Utilizado para adicionar interatividade e manipular os dados da aplicação. 
+      * **DOM API**: Para manipulação dinâmica dos elementos da página.
+      * **Web Storage API (Local Storage)**: Para armazenamento de dados no navegador do usuário. 
 
 ## 🌳 Funcionalidades
 
